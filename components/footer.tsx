@@ -15,7 +15,7 @@ export function Footer() {
               Support
             </a>
             <a
-              href="https://github.com/KikuAI-Lab/kyuva"
+              href="https://github.com/kiku-jw/kyuva"
               className="text-[#888] hover:text-white transition-colors"
               aria-label="GitHub"
               target="_blank"

@@ -5,7 +5,7 @@ import { Apple } from "lucide-react"
 import { motion } from "framer-motion"
 
 const APP_STORE_URL = "https://apps.apple.com/app/kyuva/id0000000000" // Update when live
-const DMG_DOWNLOAD_URL = "https://github.com/KikuAI-Lab/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
+const DMG_DOWNLOAD_URL = "https://github.com/kiku-jw/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
 
 export function HeroSection() {
   return (

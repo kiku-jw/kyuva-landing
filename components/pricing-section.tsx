@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Check, Sparkles, Apple } from "lucide-react"
 
-const DMG_DOWNLOAD_URL = "https://github.com/KikuAI-Lab/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
+const DMG_DOWNLOAD_URL = "https://github.com/kiku-jw/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
 
 export function PricingSection() {
   return (

@@ -13,7 +13,7 @@ export default function SupportPage() {
 
                         <div className="space-y-4">
                             <a
-                                href="https://github.com/KikuAI-Lab/kyuva/issues"
+                                href="https://github.com/kiku-jw/kyuva/issues"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="block bg-white/5 border border-white/10 rounded-xl p-4 hover:bg-white/10 transition-colors"
