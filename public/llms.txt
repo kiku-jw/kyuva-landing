@@ -1,0 +1,12 @@
+# Kyuva
+
+Kyuva is a free, local-first teleprompter for Mac, published by Mykyta Dudnichenko.
+
+- Canonical page: https://v0-kyuva.vercel.app/
+- Mac App Store: https://apps.apple.com/app/id6804827338?mt=12
+- Product facts and limits: https://v0-kyuva.vercel.app/kyuva.md
+- Support: https://v0-kyuva.vercel.app/support
+- Privacy: https://v0-kyuva.vercel.app/privacy
+- Source and proof: https://github.com/kiku-jw/kyuva
+
+Public Mac App Store version 1.0 is free in all 27 EU storefronts. It requires macOS 13 or later, supports Apple silicon and Intel, stores scripts locally, and has no account, subscription, advertising, analytics, or required cloud service. Its overlay is a normal macOS window and may appear in screen shares or recordings. Voice Follow, iPhone, and Apple Watch surfaces are not part of the public App Store release yet.

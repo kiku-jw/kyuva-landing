@@ -1,11 +1,10 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { Apple } from "lucide-react"
+import { ArrowUpRight, Check, Monitor } from "lucide-react"
 import { motion } from "framer-motion"
 
-const APP_STORE_URL = "https://apps.apple.com/app/kyuva/id0000000000" // Update when live
-const DMG_DOWNLOAD_URL = "https://github.com/kiku-jw/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
+const APP_STORE_URL = "https://apps.apple.com/app/id6804827338?mt=12"
 
 export function HeroSection() {
   return (
@@ -19,19 +18,22 @@ export function HeroSection() {
         >
           {/* Main Headline */}
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4">
-            Your Invisible Teleprompter
+            Stay on script.<br />Stay close to the lens.
           </h1>
 
           {/* Gradient Subheadline */}
           <p className="text-2xl md:text-3xl font-medium bg-gradient-to-r from-white to-[#888] bg-clip-text text-transparent mb-8">
-            Maintain natural eye contact. Every time.
+            A simple, local-first teleprompter for Mac.
           </p>
 
           {/* Three-line description */}
-          <div className="flex flex-col gap-2 text-[#888] text-lg mb-10">
-            <p>Text appears right next to your camera</p>
-            <p>Hidden from screen recordings & video calls</p>
-            <p>Voice-activated smooth scrolling</p>
+          <div className="flex flex-col items-center gap-2 text-[#a3a3a3] text-lg mb-10">
+            {["Camera-side always-on-top overlay", "Speed, words-per-minute, or finish-time pacing", "No account, ads, analytics, or cloud upload"].map((item) => (
+              <p key={item} className="flex items-center gap-2">
+                <Check className="h-4 w-4 text-[#22c55e]" aria-hidden="true" />
+                {item}
+              </p>
+            ))}
           </div>
 
           {/* CTA Buttons */}
@@ -41,9 +43,9 @@ export function HeroSection() {
               className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-semibold px-8 py-6 text-lg rounded-xl shadow-lg shadow-emerald-500/20"
               asChild
             >
-              <a href={DMG_DOWNLOAD_URL}>
-                <Apple className="mr-2 h-5 w-5" />
-                Download for Mac — Free
+              <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">
+                Get Kyuva on the Mac App Store
+                <ArrowUpRight className="ml-2 h-5 w-5" aria-hidden="true" />
               </a>
             </Button>
             <Button
@@ -59,11 +61,11 @@ export function HeroSection() {
           {/* Platform Badge */}
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <div className="flex items-center gap-2 text-white text-sm bg-white/10 px-3 py-1.5 rounded-full">
-              <Apple className="h-4 w-4" />
+              <Monitor className="h-4 w-4" aria-hidden="true" />
               <span>macOS 13+</span>
             </div>
             <div className="flex items-center gap-2 text-[#888] text-sm">
-              <span>Windows & iOS coming soon</span>
+              <span>Free in all 27 EU storefronts</span>
             </div>
           </div>
         </motion.div>
@@ -118,7 +120,10 @@ export function HeroSection() {
 
           {/* Platform requirements */}
           <p className="text-center text-[#888] text-sm mt-6">
-            Requires macOS 13.0 or later • Apple Silicon or Intel
+            Requires macOS 13 or later • Apple silicon or Intel • Open source
+          </p>
+          <p className="text-center text-[#666] text-xs mt-2">
+            Kyuva uses a normal macOS window, so it may appear in screen shares or recordings. Check your preview before presenting.
           </p>
         </motion.div>
       </div>

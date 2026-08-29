@@ -1,16 +1,32 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Kyuva - Your Invisible Teleprompter",
+  metadataBase: new URL("https://v0-kyuva.vercel.app"),
+  title: "Kyuva — Free local-first teleprompter for Mac",
   description:
-    "Read your scripts while maintaining natural eye contact during video calls and presentations. Text appears near your camera and is hidden from screen sharing.",
-  generator: "v0.app",
+    "Keep your script close to the camera with a free Mac teleprompter. No account, ads, analytics, cloud upload, or subscription.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: "/",
+    title: "Kyuva — Free local-first teleprompter for Mac",
+    description:
+      "A compact camera-side teleprompter with flexible pacing, local scripts, and no account.",
+    siteName: "Kyuva",
+  },
+  twitter: {
+    card: "summary",
+    title: "Kyuva — Free local-first teleprompter for Mac",
+    description:
+      "A compact camera-side teleprompter with flexible pacing, local scripts, and no account.",
+  },
   icons: {
     icon: [
       {
@@ -39,7 +55,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`}>
         {children}
-        <Analytics />
       </body>
     </html>
   )

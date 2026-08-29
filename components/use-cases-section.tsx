@@ -1,39 +1,39 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Video, Youtube, Briefcase, GraduationCap, Radio, Presentation } from "lucide-react"
+import { BookOpen, Briefcase, GraduationCap, Megaphone, Presentation, Video } from "lucide-react"
 
 export function UseCasesSection() {
   const useCases = [
     {
-      icon: Video,
-      title: "Zoom Presentations",
-      description: "Deliver pitches without the teleprompter look",
+      icon: Presentation,
+      title: "Video Calls",
+      description: "Keep key points close to the webcam during meetings",
     },
     {
-      icon: Youtube,
-      title: "YouTube & TikTok",
-      description: "Create content confidently, read scripts naturally",
+      icon: Video,
+      title: "Product Demos",
+      description: "Present a feature walkthrough without losing your place",
     },
     {
       icon: Briefcase,
-      title: "Job Interviews",
-      description: "Keep your key points handy without shuffling papers",
+      title: "Project Updates",
+      description: "Deliver concise status notes and announcements",
     },
     {
       icon: GraduationCap,
       title: "Webinars & Training",
-      description: "Teach for hours without losing your place",
+      description: "Keep lessons structured while staying near the camera",
     },
     {
-      icon: Radio,
-      title: "Live Streaming",
-      description: "Engage chat while reading sponsor messages",
+      icon: BookOpen,
+      title: "Talks & Readings",
+      description: "Rehearse timing or present from a prepared outline",
     },
     {
-      icon: Presentation,
-      title: "Investor Pitches",
-      description: "Nail your funding presentation every time",
+      icon: Megaphone,
+      title: "Creator Videos",
+      description: "Record intros, tutorials, and updates with a clear script",
     },
   ]
 
@@ -48,7 +48,7 @@ export function UseCasesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 text-balance">
-            Perfect for every video moment
+            Useful wherever you speak from a script
           </h2>
         </motion.div>
 

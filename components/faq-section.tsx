@@ -6,44 +6,44 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 export function FAQSection() {
   const faqs = [
     {
-      question: "How does Kyuva stay hidden from screen sharing?",
+      question: "What is Kyuva and who is it for?",
       answer:
-        "Kyuva uses native OS-level window exclusion to mark the overlay as non-capturable. This means screen recording software, video call apps, and streaming tools automatically skip the Kyuva window.",
+        "Kyuva is a compact Mac teleprompter for people who speak from a script during video calls, recordings, lessons, presentations, product demos, or prepared talks.",
     },
     {
-      question: "Does voice activation record my audio?",
+      question: "Is Kyuva free?",
       answer:
-        "No. Voice detection happens entirely on your device using local processing. Your audio is never recorded, stored, or sent anywhere. Privacy is built into the core design.",
+        "Yes. Kyuva 1.0 is a free Mac App Store download in all 27 European Union storefronts. It has no purchase, subscription, advertising, or account.",
     },
     {
-      question: "Which video apps are supported?",
+      question: "Does Kyuva upload my scripts?",
       answer:
-        "Kyuva works with any app—Zoom, Google Meet, Microsoft Teams, OBS, Loom, and more. Since it floats above all windows and is excluded from capture, it's compatible with everything.",
+        "No. Scripts and settings stay in Kyuva’s local Mac app container. The app has no analytics, tracking, account, or required cloud service.",
     },
     {
-      question: "Is there a subscription?",
+      question: "Is Kyuva hidden from screen sharing or recordings?",
       answer:
-        "No subscriptions. The Pro version is a one-time purchase of $19. You own it forever, including all future updates.",
+        "No guarantee is made. The teleprompter is a normal macOS window and may appear in a screen share or recording. Check the preview first, or share a single app window that does not include Kyuva.",
     },
     {
-      question: "Does it work with external monitors?",
+      question: "How can I control the scrolling pace?",
       answer:
-        "Yes! You can position the Kyuva overlay on any screen. Most users place it near their webcam, whether that's on an external monitor or their laptop display.",
+        "Choose a fixed speed, words per minute, or a target finish time. You can pause, reset, adjust the pace, or jump to a line from the overlay and with global keyboard shortcuts.",
     },
     {
-      question: "Can I use it on multiple devices?",
+      question: "Does the current Mac App Store version follow my voice?",
       answer:
-        "Yes. Your Pro license works across all your devices—Mac, Windows, iOS, Android, and browser extensions. Just sign in once on each device.",
+        "Not yet. The public Mac App Store 1.0 release uses timed pacing. An optional on-device Voice Follow mode is being tested in development for a future reviewed update.",
     },
     {
-      question: "What's the difference between Free and Pro?",
+      question: "Are iPhone and Apple Watch versions available?",
       answer:
-        "Free gives you 3 scripts with auto-scroll. Pro unlocks unlimited scripts, voice-activated scrolling, custom hotkeys, and priority support.",
+        "Not in the App Store yet. The iPhone prompt and paired Apple Watch remote are in development and will only be released after physical-device testing and App Review.",
     },
     {
-      question: "How do I get a refund?",
+      question: "What Macs are supported?",
       answer:
-        "Email us within 30 days of purchase and we'll refund you, no questions asked. We want you to be completely satisfied with Kyuva.",
+        "Kyuva requires macOS 13 or later and supports both Apple silicon and Intel Macs.",
     },
   ]
 

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
-const DMG_DOWNLOAD_URL = "https://github.com/kiku-jw/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
+const APP_STORE_URL = "https://apps.apple.com/app/id6804827338?mt=12"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -20,7 +20,6 @@ export function Navbar() {
 
   const navLinks = [
     { href: "#features", label: "Features" },
-    { href: "#pricing", label: "Pricing" },
     { href: "#download", label: "Download" },
     { href: "#faq", label: "FAQ" },
   ]
@@ -52,7 +51,7 @@ export function Navbar() {
               className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-medium px-5 py-2 rounded-lg"
               asChild
             >
-              <a href={DMG_DOWNLOAD_URL}>Download Free</a>
+              <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">Mac App Store</a>
             </Button>
           </div>
 
@@ -84,7 +83,7 @@ export function Navbar() {
                 className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-medium w-full mt-2"
                 asChild
               >
-                <a href={DMG_DOWNLOAD_URL}>Download Free</a>
+                <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">Mac App Store</a>
               </Button>
             </div>
           </div>

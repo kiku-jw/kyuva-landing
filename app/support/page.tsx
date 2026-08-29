@@ -8,7 +8,7 @@ export default function SupportPage() {
                     <section className="bg-white/5 border border-white/10 rounded-2xl p-8">
                         <h2 className="text-2xl font-semibold text-white mb-4">Get Help</h2>
                         <p className="text-[#888] mb-6">
-                            Having trouble with Kyuva? We&apos;re here to help. Check out these resources or reach out directly.
+                            Check the quick tips below, report a reproducible issue, or send feedback. Do not attach private scripts or recordings.
                         </p>
 
                         <div className="space-y-4">
@@ -38,17 +38,17 @@ export default function SupportPage() {
                         <div className="space-y-4 text-[#888]">
                             <div>
                                 <h3 className="text-white font-medium mb-1">Overlay not showing?</h3>
-                                <p className="text-sm">Make sure Kyuva has permission in System Settings → Privacy & Security → Accessibility</p>
+                                <p className="text-sm">Use the text-bubble menu-bar icon and choose Show Teleprompter. Kyuva does not require Accessibility or Input Monitoring permission.</p>
                             </div>
 
                             <div>
                                 <h3 className="text-white font-medium mb-1">Scrolling too fast/slow?</h3>
-                                <p className="text-sm">Use Shift + ← / → to adjust speed, or hover over the overlay and use the controls</p>
+                                <p className="text-sm">Hover over the overlay and use its controls, or press Control–Option–Left/Right Arrow.</p>
                             </div>
 
                             <div>
-                                <h3 className="text-white font-medium mb-1">Voice-Follow not working?</h3>
-                                <p className="text-sm">Grant microphone permission when prompted. The app uses on-device processing only.</p>
+                                <h3 className="text-white font-medium mb-1">Will the overlay appear in a capture?</h3>
+                                <p className="text-sm">It may. Kyuva is a normal macOS window. Check the preview, or share a single app window that omits Kyuva.</p>
                             </div>
                         </div>
                     </section>
@@ -59,9 +59,13 @@ export default function SupportPage() {
                         <ul className="text-[#888] space-y-2">
                             <li>• macOS 13.0 or later</li>
                             <li>• Apple Silicon or Intel Mac</li>
-                            <li>• Microphone (optional, for Voice-Follow mode)</li>
+                            <li>• No account, network, microphone, Accessibility, or Input Monitoring permission required in App Store version 1.0</li>
                         </ul>
                     </section>
+
+                    <p className="text-sm text-[#666]">
+                        <a href="/" className="text-[#22c55e] hover:underline">Back to Kyuva</a>
+                    </p>
                 </div>
             </div>
         </main>

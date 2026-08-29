@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { FileText, Play, Mic } from "lucide-react"
+import { Camera, FileText, Gauge } from "lucide-react"
 
 export function HowItWorksSection() {
   const steps = [
@@ -9,19 +9,19 @@ export function HowItWorksSection() {
       number: "1",
       icon: FileText,
       title: "Add Your Script",
-      description: "Write notes, paste text, or import from file",
+      description: "Write notes, paste text, or import a plain-text file",
     },
     {
       number: "2",
-      icon: Play,
-      title: "Press Play",
-      description: "Text appears near your camera, invisible to others",
+      icon: Camera,
+      title: "Place It Near the Camera",
+      description: "Drag and resize the compact overlay beside your lens",
     },
     {
       number: "3",
-      icon: Mic,
-      title: "Speak Naturally",
-      description: "Voice-activated scrolling keeps pace with you",
+      icon: Gauge,
+      title: "Choose Your Pace",
+      description: "Use a fixed speed, words per minute, or a finish time",
     },
   ]
 

@@ -2,9 +2,9 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Apple } from "lucide-react"
+import { ArrowUpRight } from "lucide-react"
 
-const DMG_DOWNLOAD_URL = "https://github.com/kiku-jw/kyuva/releases/latest/download/Kyuva-1.0.0.dmg"
+const APP_STORE_URL = "https://apps.apple.com/app/id6804827338?mt=12"
 
 export function FinalCTASection() {
   return (
@@ -22,12 +22,12 @@ export function FinalCTASection() {
             className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-12 md:p-16 text-center"
           >
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 text-balance">
-              From glancing at notes to owning the room.
+              Put your words beside the camera.
               <br />
-              <span className="text-[#22c55e]">In 60 seconds.</span>
+              <span className="text-[#22c55e]">Keep the rest simple.</span>
             </h2>
             <p className="text-lg text-[#888] mb-10 max-w-xl mx-auto">
-              {"Download Kyuva. Add your first script. Hit Play. That's it."}
+              {"Install Kyuva, add a script, choose a pace, and present."}
             </p>
 
             {/* Download Button */}
@@ -37,21 +37,21 @@ export function FinalCTASection() {
                 className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-semibold px-8 py-6 text-lg"
                 asChild
               >
-                <a href={DMG_DOWNLOAD_URL}>
-                  <Apple className="mr-2 h-5 w-5" />
-                  Download for Mac — Free
+                <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">
+                  Get Kyuva on the Mac App Store
+                  <ArrowUpRight className="ml-2 h-5 w-5" aria-hidden="true" />
                 </a>
               </Button>
             </div>
 
             {/* Coming Soon */}
             <p className="text-[#888] text-sm mb-8">
-              Windows, iOS & Android coming soon
+              Free in the 27 EU storefronts • macOS 13+ • Apple silicon and Intel
             </p>
 
             {/* Trust Text */}
             <p className="text-[#666] text-sm">
-              No account required • 100% free tier • Upgrade anytime
+              No account • No subscription • No ads • No analytics
             </p>
 
             {/* MacBook Mockup */}

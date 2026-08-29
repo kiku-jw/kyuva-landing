@@ -1,11 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Layers, EyeOff, Globe, UserX, WifiOff, Feather } from "lucide-react"
+import { Clock3, Eye, FileUp, Layers, MonitorUp, UserX } from "lucide-react"
 
 export function FeaturesBentoSection() {
   return (
-    <section className="py-24 px-6">
+    <section id="features" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -50,11 +50,11 @@ export function FeaturesBentoSection() {
             <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 blur-3xl rounded-full" />
             <div className="relative">
               <div className="w-14 h-14 bg-cyan-500/10 rounded-xl flex items-center justify-center mb-6">
-                <EyeOff className="w-7 h-7 text-cyan-400" />
+                <Eye className="w-7 h-7 text-cyan-400" />
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-3">Hidden from Sharing</h3>
+              <h3 className="text-2xl font-semibold text-white mb-3">An Honest Capture Boundary</h3>
               <p className="text-[#888] text-lg">
-                Your secret stays secret—overlay is automatically excluded from screen capture and recordings.
+                Kyuva is a normal macOS window and may appear in captures. Check your preview, or share one app window that omits it.
               </p>
             </div>
           </motion.div>
@@ -64,24 +64,24 @@ export function FeaturesBentoSection() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {[
             {
-              icon: Globe,
-              title: "Cross-Platform",
-              description: "Mac, Windows, Mobile, Browser",
+              icon: Clock3,
+              title: "Flexible Pacing",
+              description: "Speed, WPM, or target finish time",
             },
             {
               icon: UserX,
               title: "No Account Required",
-              description: "Download and start immediately",
+              description: "Install and start without signing in",
             },
             {
-              icon: WifiOff,
-              title: "100% Offline",
-              description: "Works without internet, your data stays local",
+              icon: FileUp,
+              title: "Local Scripts",
+              description: "Plain-text import and export on your Mac",
             },
             {
-              icon: Feather,
-              title: "Lightweight",
-              description: "Under 10MB, no battery drain",
+              icon: MonitorUp,
+              title: "Display Ready",
+              description: "Move the overlay or mirror text for a rig",
             },
           ].map((feature, index) => (
             <motion.div
