@@ -3,8 +3,7 @@
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
-
-const APP_STORE_URL = "https://apps.apple.com/app/id6804827338?mt=12"
+import { APP_STORE_LANDING_URL } from "@/lib/site"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -51,7 +50,7 @@ export function Navbar() {
               className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-medium px-5 py-2 rounded-lg"
               asChild
             >
-              <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">Mac App Store</a>
+              <a href={APP_STORE_LANDING_URL} target="_blank" rel="noopener noreferrer">Mac App Store</a>
             </Button>
           </div>
 
@@ -83,7 +82,7 @@ export function Navbar() {
                 className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-medium w-full mt-2"
                 asChild
               >
-                <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">Mac App Store</a>
+                <a href={APP_STORE_LANDING_URL} target="_blank" rel="noopener noreferrer">Mac App Store</a>
               </Button>
             </div>
           </div>

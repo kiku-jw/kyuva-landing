@@ -3,8 +3,7 @@
 import { Button } from "@/components/ui/button"
 import { ArrowUpRight, Check, Monitor } from "lucide-react"
 import { motion } from "framer-motion"
-
-const APP_STORE_URL = "https://apps.apple.com/app/id6804827338?mt=12"
+import { APP_STORE_LANDING_URL } from "@/lib/site"
 
 export function HeroSection() {
   return (
@@ -43,7 +42,7 @@ export function HeroSection() {
               className="bg-[#22c55e] hover:bg-[#16a34a] text-[#0a0a0a] font-semibold px-8 py-6 text-lg rounded-xl shadow-lg shadow-emerald-500/20"
               asChild
             >
-              <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer">
+              <a href={APP_STORE_LANDING_URL} target="_blank" rel="noopener noreferrer">
                 Get Kyuva on the Mac App Store
                 <ArrowUpRight className="ml-2 h-5 w-5" aria-hidden="true" />
               </a>

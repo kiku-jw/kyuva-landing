@@ -6,9 +6,7 @@ import { FeaturesBentoSection } from "@/components/features-bento-section"
 import { FAQSection } from "@/components/faq-section"
 import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
-import { absoluteUrl } from "@/lib/site"
-
-const appStoreUrl = "https://apps.apple.com/app/id6804827338?mt=12"
+import { absoluteUrl, APP_STORE_URL } from "@/lib/site"
 
 export default function Home() {
   const softwareApplication = {
@@ -20,7 +18,7 @@ export default function Home() {
     description:
       "A free, local-first teleprompter for Mac with a compact camera-side overlay and flexible pacing.",
     url: absoluteUrl("/"),
-    downloadUrl: appStoreUrl,
+    downloadUrl: APP_STORE_URL,
     isAccessibleForFree: true,
     author: {
       "@type": "Person",

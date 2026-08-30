@@ -13,7 +13,7 @@ Write, paste, or import a plain-text script. Place the overlay beside the camera
 - Availability: all 27 European Union storefronts
 - Requirements: macOS 13 or later; Apple silicon or Intel
 - Publisher: Mykyta Dudnichenko
-- App Store: https://apps.apple.com/app/id6804827338?mt=12
+- App Store: https://apps.apple.com/ie/app/kyuva/id6804827338?mt=12
 
 ## Privacy boundary
 

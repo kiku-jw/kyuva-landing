@@ -26,7 +26,7 @@ builds it with the project path and publishes it at
 ## Public links
 
 - Landing page: <https://kiku-jw.github.io/kyuva-landing/>
-- Mac App Store: <https://apps.apple.com/app/id6804827338?mt=12>
+- Mac App Store: <https://apps.apple.com/ie/app/kyuva/id6804827338?mt=12>
 - Product facts and limits: <https://kiku-jw.github.io/kyuva-landing/kyuva.md>
 - Support: <https://kiku-jw.github.io/kyuva-landing/support/>
 - Privacy: <https://kiku-jw.github.io/kyuva-landing/privacy/>
