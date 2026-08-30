@@ -1,3 +1,5 @@
+import { withBasePath } from "@/lib/site"
+
 export default function SupportPage() {
     return (
         <main className="min-h-screen bg-[#0a0a0a] text-white py-24 px-6">
@@ -64,7 +66,7 @@ export default function SupportPage() {
                     </section>
 
                     <p className="text-sm text-[#666]">
-                        <a href="/" className="text-[#22c55e] hover:underline">Back to Kyuva</a>
+                        <a href={withBasePath("/")} className="text-[#22c55e] hover:underline">Back to Kyuva</a>
                     </p>
                 </div>
             </div>

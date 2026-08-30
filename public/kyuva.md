@@ -28,5 +28,5 @@ Kyuva stores scripts and settings locally. The public release has no account, su
 ## Proof and support
 
 - Source: https://github.com/kiku-jw/kyuva
-- Support: https://v0-kyuva.vercel.app/support
-- Privacy: https://v0-kyuva.vercel.app/privacy
+- Support: https://kiku-jw.github.io/kyuva-landing/support/
+- Privacy: https://kiku-jw.github.io/kyuva-landing/privacy/

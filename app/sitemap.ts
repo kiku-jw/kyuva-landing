@@ -1,19 +1,22 @@
 import type { MetadataRoute } from "next"
+import { absoluteUrl } from "@/lib/site"
+
+export const dynamic = "force-static"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://v0-kyuva.vercel.app/",
+      url: absoluteUrl("/"),
       changeFrequency: "monthly",
       priority: 1,
     },
     {
-      url: "https://v0-kyuva.vercel.app/support",
+      url: absoluteUrl("/support/"),
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: "https://v0-kyuva.vercel.app/privacy",
+      url: absoluteUrl("/privacy/"),
       changeFrequency: "yearly",
       priority: 0.5,
     },

@@ -1,4 +1,5 @@
 import { Github } from "lucide-react"
+import { withBasePath } from "@/lib/site"
 
 export function Footer() {
   return (
@@ -8,10 +9,10 @@ export function Footer() {
           <p className="text-[#888] text-sm">© 2026 Mykyta Dudnichenko</p>
 
           <div className="flex items-center gap-6">
-            <a href="/privacy" className="text-[#888] hover:text-white text-sm transition-colors">
+            <a href={withBasePath("/privacy/")} className="text-[#888] hover:text-white text-sm transition-colors">
               Privacy
             </a>
-            <a href="/support" className="text-[#888] hover:text-white text-sm transition-colors">
+            <a href={withBasePath("/support/")} className="text-[#888] hover:text-white text-sm transition-colors">
               Support
             </a>
             <a

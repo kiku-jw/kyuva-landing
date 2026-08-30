@@ -6,6 +6,7 @@ import { FeaturesBentoSection } from "@/components/features-bento-section"
 import { FAQSection } from "@/components/faq-section"
 import { FinalCTASection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
+import { absoluteUrl } from "@/lib/site"
 
 const appStoreUrl = "https://apps.apple.com/app/id6804827338?mt=12"
 
@@ -18,7 +19,7 @@ export default function Home() {
     operatingSystem: "macOS 13 or later",
     description:
       "A free, local-first teleprompter for Mac with a compact camera-side overlay and flexible pacing.",
-    url: "https://v0-kyuva.vercel.app/",
+    url: absoluteUrl("/"),
     downloadUrl: appStoreUrl,
     isAccessibleForFree: true,
     author: {

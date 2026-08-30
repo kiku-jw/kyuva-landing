@@ -1,33 +1,36 @@
-# Kyuva landing page design
+# Kyuva landing page
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+This repository contains the public Kyuva landing page: a truthful, static
+product page for the free, local-first Mac teleprompter.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kikus-projects-7cce34e4/v0-kyuva-landing-page-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/n67lYozoxpA)
+## Development
 
-## Overview
+Install the existing pnpm dependencies and start the local development server:
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+```sh
+pnpm install --frozen-lockfile
+pnpm dev
+```
 
-## Deployment
+Run the type check and production build locally:
 
-Your project is live at:
+```sh
+pnpm check
+pnpm build
+```
 
-**[https://vercel.com/kikus-projects-7cce34e4/v0-kyuva-landing-page-design](https://vercel.com/kikus-projects-7cce34e4/v0-kyuva-landing-page-design)**
+The production build is a static export in `out/`. The GitHub Pages workflow
+builds it with the project path and publishes it at
+<https://kiku-jw.github.io/kyuva-landing/>.
 
-## Build your app
+## Public links
 
-Continue building your app on:
-
-**[https://v0.app/chat/n67lYozoxpA](https://v0.app/chat/n67lYozoxpA)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- Landing page: <https://kiku-jw.github.io/kyuva-landing/>
+- Mac App Store: <https://apps.apple.com/app/id6804827338?mt=12>
+- Product facts and limits: <https://kiku-jw.github.io/kyuva-landing/kyuva.md>
+- Support: <https://kiku-jw.github.io/kyuva-landing/support/>
+- Privacy: <https://kiku-jw.github.io/kyuva-landing/privacy/>
+- Source and proof: <https://github.com/kiku-jw/kyuva>
 
 <!-- author-links:start -->
 <p align="center">
