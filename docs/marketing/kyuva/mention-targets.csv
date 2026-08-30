@@ -1,0 +1,11 @@
+priority,target_type,target,url,angle,precondition,status
+1,owned,KikuAI homepage,https://kikuai.dev/,Free local-first Mac teleprompter with attributable App Store path,Live public readback,live
+1,owned,GitHub README,https://github.com/kiku-jw/kyuva,Public source plus working EU App Store campaign link,Green CI and listing readback,live
+1,owned,Kyuva landing,https://kiku-jw.github.io/kyuva-landing/,Exact product facts plus product-demo script template,Green Pages deploy,live
+2,community,r/macapps,https://www.reddit.com/r/macapps/,Useful product-demo workflow and honest capture boundary,Real walkthrough video and fresh rules check,prepare_only
+2,community,r/MacOSApps,https://www.reddit.com/r/MacOSApps/,Free App Store Mac utility with public source,Real walkthrough video and fresh rules check,prepare_only
+2,directory,AlternativeTo,https://alternativeto.net/software/teleprompter/,Free local-first App Store alternative without capture-invisibility claims,Verified app profile assets and owner submission,prepare_only
+2,directory,Awesome Mac,https://github.com/jaywcjlove/awesome-mac,Free open-source Mac teleprompter in the appropriate maintained category,Contributing-guideline check and one clean PR,prepare_only
+3,launch,Product Hunt,https://www.producthunt.com/,Simple Mac teleprompter plus free script template,External proof video and concise gallery,park
+3,directory,MacUpdate,https://www.macupdate.com/,Signed Mac App Store utility,Submission ownership and current listing rules,park
+3,editorial,Mac teleprompter roundups,https://www.google.com/search?q=best+teleprompter+for+Mac,Free local-first App Store option with honest limits,One real reviewable workflow and outreach approval,park

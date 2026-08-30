@@ -16,6 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
+      url: absoluteUrl("/product-demo-script-template/"),
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
+    {
       url: absoluteUrl("/privacy/"),
       changeFrequency: "yearly",
       priority: 0.5,

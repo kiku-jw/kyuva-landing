@@ -9,6 +9,9 @@ export function Footer() {
           <p className="text-[#888] text-sm">© 2026 Mykyta Dudnichenko</p>
 
           <div className="flex items-center gap-6">
+            <a href={withBasePath("/product-demo-script-template/")} className="text-[#888] hover:text-white text-sm transition-colors">
+              Script template
+            </a>
             <a href={withBasePath("/privacy/")} className="text-[#888] hover:text-white text-sm transition-colors">
               Privacy
             </a>

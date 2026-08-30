@@ -5,6 +5,8 @@ Kyuva is a free, local-first teleprompter for Mac, published by Mykyta Dudnichen
 - Canonical page: https://kiku-jw.github.io/kyuva-landing/
 - Mac App Store: https://apps.apple.com/ie/app/kyuva/id6804827338?mt=12
 - Product facts and limits: https://kiku-jw.github.io/kyuva-landing/kyuva.md
+- Free product demo script template: https://kiku-jw.github.io/kyuva-landing/product-demo-script-template/
+- Plain-text template download: https://kiku-jw.github.io/kyuva-landing/product-demo-script-template.txt
 - Support: https://kiku-jw.github.io/kyuva-landing/support/
 - Privacy: https://kiku-jw.github.io/kyuva-landing/privacy/
 - Source and proof: https://github.com/kiku-jw/kyuva

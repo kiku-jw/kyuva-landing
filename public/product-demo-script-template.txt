@@ -1,0 +1,28 @@
+PRODUCT DEMO SCRIPT — 60 TO 90 SECONDS
+
+[OPENING — 1 sentence]
+If you [audience] and [specific problem], here is a simpler way to [result].
+
+[PROBLEM — 1–2 sentences]
+Usually, [old workflow] means [friction or cost].
+That gets in the way when [real situation].
+
+[DEMO — 3 short steps]
+First, [show the starting point].
+Next, [perform the core action].
+Now you have [visible result].
+
+[BOUNDARY — 1 sentence]
+This is useful when [supported case], but it does not [important limitation].
+
+[NEXT STEP — 1 sentence]
+Try it at [link or App Store name], and start with [small first action].
+
+READING NOTES
+
+- Keep one thought per line.
+- Show only actions the viewer can see.
+- Name one honest limitation.
+- End with one next action.
+
+Free template from Kyuva: https://kiku-jw.github.io/kyuva-landing/product-demo-script-template/
